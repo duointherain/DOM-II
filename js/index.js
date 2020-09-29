@@ -35,6 +35,9 @@ navItems[3].addEventListener('mouseout', function(event)  {
 event.target.style.color = "black"
 })
 
+window.onload = (event) => {
+  console.log('1x2 forever');
+};
 
 
 
