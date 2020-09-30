@@ -40,4 +40,16 @@ window.onload = (event) => {
 };
 
 
+const card = document.querySelector('aside');
 
+card.addEventListener('dblclick', function (e) {
+  card.classList.toggle('large');
+});
+
+
+window.addEventListener("resize", function(event){
+alert("Blue and Purple")
+console.log('blue and purple')
+
+
+});
