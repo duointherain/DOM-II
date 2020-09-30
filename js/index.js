@@ -53,3 +53,30 @@ console.log('blue and purple')
 
 
 });
+const text = document.querySelector('h2')
+const body = document.querySelector('body');
+document.addEventListener('keyup', (event)=>{
+  body.style.backgroundColor = ("hsl(233, 80%, 56%)")
+
+});
+
+
+document.addEventListener('keydown', (event)=>{
+  body.style.backgroundColor = ("hsl(223, 81%, 56%)")
+
+});
+
+
+document.addEventListener('keypress', (event)=>{
+  text.style.color = ("hsl(57, 80%, 56%)")
+
+});
+
+let bigText = document.querySelector("text-content h2");
+
+bigText.addEventListener("dblclick", function(event){
+bigText.style.fontsize = "300%";
+
+
+});
+
